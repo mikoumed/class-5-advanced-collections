@@ -16,7 +16,9 @@ def calculate_total_per_invoices(products_string):
         
         customers.setdefault(customer_id, {})
         customers[customer_id].setdefault(invoice, 0)
+        print(c
         customers[customer_id][invoice] += total
         
     return customers
-
+    
+pprint(calculate_total_per_invoices(products_string))

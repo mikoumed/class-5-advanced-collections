@@ -1,5 +1,3 @@
-from data import products_string
-
 def transform_products_to_list(products_string):
     
     products_string_splitted = products_string.split('\n')
